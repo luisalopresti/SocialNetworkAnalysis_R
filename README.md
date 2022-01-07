@@ -52,4 +52,4 @@ Calculate the arc-based reciprocity index for this network and interpret.
 - Make sure to discuss the reference points for the measure. What is the minimum, expected and maximum value?
 
 ## Analysis 
-All the analysis were performed using R and can be found, along with detailed comments, in the `SNA_project` script.
+All the analysis were performed using R and can be found, along with detailed comments, in the `SNA_project.R` script.
