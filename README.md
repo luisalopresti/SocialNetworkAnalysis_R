@@ -1,7 +1,7 @@
-## Social Network Analysis with R
+# Social Network Analysis with R
 This repository stores the work done for the Advanced Social Networks course, offered by the University of Trento (a.y. 2021/2022).
 
-# Overview
+## Overview
 This exercise perform a small social network analysis on a class of Italian student, studying bullying phenomena, and evaluating nodes attributes such as gender, grade, and ethinicity.
 We were provided with an Excel file, containing the directed network (Bullying sheet) capturing who bullies whom among a group of students in an Italian school class. 
 The network was based on asking every person the question “Who do you bully?”.
@@ -10,10 +10,10 @@ You are also given a spreadsheet with attributes for each student (Attributes sh
 -	The student’s grade (which goes from 0 to 10, with 10 being the highest grade),
 -	The student’s ethnicity, where 1=born abroad with foreign parents (first generation immigrants), 2=born in Italy with foreign parents (second generation immigrants), 3=born in Italy with at least one Italian parent (which we label “Italian”).
 
-# Data
+## Data
 Both the data for the network and the attributes can be found in the data folder.
 
-# Task
+## Task
 1. Drawing a network using R:
 1.1.	Draw the network using the Fruchterman-Reingold layout with names (but without attributes). Add the R script of how you obtained the drawings. 
 1.2.	Next draw the network again using the Fruchterman-Reingold layout without names, but now with all 3 attributes (gender, grade and ethnicity) included using in some way a combination of color, shape and size of nodes. Add the R script of how you obtained the drawings.
@@ -45,5 +45,5 @@ Both the data for the network and the attributes can be found in the data folder
 - What do you conclude substantively (taking into account that the network is “who do you bully?”)?
 - Make sure to discuss the reference points for the measure. What is the minimum, expected and maximum value?
 
-# Analysis 
+## Analysis 
 All the analysis were performed using R and can be found, along with detailed comments, in the `SNA_project` script.
