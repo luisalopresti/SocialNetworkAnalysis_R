@@ -14,14 +14,14 @@ You are also given a spreadsheet with attributes for each student (Attributes sh
 Both the data for the network and the attributes can be found in the data folder.
 
 ## Task
-`Exercise 1` 
+### Exercise 1 
 Drawing a network using R:
 
 - Draw the network using the Fruchterman-Reingold layout with names (but without attributes). Add the R script of how you obtained the drawings. 
 - Next draw the network again using the Fruchterman-Reingold layout without names, but now with all 3 attributes (gender, grade and ethnicity) included using in some way a combination of color, shape and size of nodes. Add the R script of how you obtained the drawings.
 -	Create a legend for the attributes (this does not have to be with R, but needs to clarify how the different attributes were represented in the network). 
  
-`Exercise 2` 
+### Exercise 2
 Centrality:
 
 Calculate indegree and outdegree centrality for each node and interpret your results.
@@ -38,7 +38,7 @@ Finally, perform a significance test using a permutation-based approach for the 
 - What does the significance test do and what do you conclude?
 - Add the R script of how you obtained the results.
  
-`Exercise 3` 
+### Exercise 3
 Centralization and reciprocity:
 
 Calculate the indegree and outdegree centralization for this network using the approach discussed in class and interpret. 
