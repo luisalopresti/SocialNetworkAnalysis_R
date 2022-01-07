@@ -11,7 +11,7 @@ You are also given a spreadsheet with attributes for each student (Attributes sh
 -	The student’s ethnicity, where 1=born abroad with foreign parents (first generation immigrants), 2=born in Italy with foreign parents (second generation immigrants), 3=born in Italy with at least one Italian parent (which we label “Italian”).
 
 ## Data
-Both the data for the network and the attributes can be found in the data folder.
+Both the data for the network and the attributes can be found in the `data` folder.
 
 ## Task
 ### Exercise 1 
