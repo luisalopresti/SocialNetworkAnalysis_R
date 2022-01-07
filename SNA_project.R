@@ -384,10 +384,19 @@ g <- graph_from_adjacency_matrix(
 
 reciprocity(g) # 0.02702703
 
+# Alternatively, using the "sna" library, the same result can be obtained by running:
+# sna::grecip(dt_TF, measure = "edgewise")
+
 # The arc-based reciprocity index is obtained by applying the following formula:
 # 2*M / (2*M+A)
 # where M are the mutual ties (e.g., if A bullies B, B bullies A),
 # and A are the asymmetric ties (e.g., if A bullies B, A is not bullied by B).
+# Thus one may also compute it manually as follow:
+
+sna::dyad.census(dt_TF, g=NULL) # returns number of mutual, asymmetric, and null ties
+# mutual = 1, asymmetric = 72, null = 227
+reciprocity_index = 2*1 / (2*1 + 72)
+reciprocity_index
 
 # The minimum value possible of the reciprocity index
 # is zero, which would mean perfect anti-reciprocity, thus if A connect to B, 
