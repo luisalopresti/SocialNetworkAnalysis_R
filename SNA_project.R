@@ -349,6 +349,10 @@ centralization(dt_TF, degree, mode="digraph", cmode="outdegree", normalize=TRUE)
 # mean only one or few node are very subjected to bullying by a lot of 
 # different other students.
 
+# Thus, a maximally centralized network result in a "star-shaped" graph
+# and its centralization value is 1 which indicates that all the nodes in a network
+# have ties to only one node and there are no other ties.
+
 # All this considered, the theoretical maximum value of the indegree centralization 
 # would be obtained if all nodes in the network are directly connected to
 # just one node, meaning this one node has the maximum number of incoming edges 
@@ -357,14 +361,19 @@ centralization(dt_TF, degree, mode="digraph", cmode="outdegree", normalize=TRUE)
 # Similarly, the maximum value for the outdegree centralization would be obtained
 # if one node bullies all the others in the network, namely has outdegree equal 
 # to n-1.
+
 # Instead, if all node have the same in-/out-degree, 
 # the network is decentralized, and the centralization will be equal to zero,
 # which is the minimum value possible.
 
-# From the results above, it is possible to conclude the network is not
-# very centralized, neither with respect to indegree nor to outdegree.
-# The configuration of the network visible in the first two plots would have
-# also suggested the same conclusion.
+# From the results above, given that the theoretical maximum is one and the 
+# minimum zero, it is possible to conclude the network is not
+# very centralized, neither with respect to indegree (~0.262) nor to outdegree (~0.306).
+# Both values characterize a weakly centralized and fairly cohesive graph.
+# While the values are close to each other, students who bully are slightly 
+# more centralized around specific nodes than students who are bullied.
+# Note that the configuration of the network visible in the first two plots would have
+# suggested the same conclusion.
 
 
 # 3.2. 
